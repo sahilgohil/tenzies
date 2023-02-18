@@ -34,11 +34,16 @@ export default function App() {
         {
             if(allSameValue)
             {
-                return 'Congretulations, You won the Game!'
+                return 'Congretulations, 😎 🤩 🥳 You won the Game!'
             }
             else
             {
-                return 'not all die are same..'
+                setTimeout(()=>{
+                    setDice(allNewDice())
+                },2000)
+                return 'dies are not same... you loose 🥲 restarting...'
+                
+
             }
         }
         else

@@ -2,9 +2,11 @@
   box-sizing: border-box;
 }
 
+
 body {
   margin: 0;
-  background-color: #e9c46a;
+  background-color: #e9c46a; 
+  /* #fb6f92 */
   padding: 20px;
   font-family: 'Karla', sans-serif;
   display: flex;
@@ -26,7 +28,7 @@ main {
 }
 
 .title {
-  font-size: 60px;
+  font-size: 3rem;
   margin: 0;
   text-shadow: -3px 3px 3px #e9c46a;
   color: #5035FF;
@@ -86,4 +88,11 @@ main {
 
 .roll-dice:active {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width:680px) {
+  .title{
+    font-size: 4rem;
+  }
+  
 }
