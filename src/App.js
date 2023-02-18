@@ -48,7 +48,7 @@ export default function App() {
         }
         else
         {
-            return 'Tenzies'
+            return '🎲 Tenzies 🎲'
         }
     }
 
